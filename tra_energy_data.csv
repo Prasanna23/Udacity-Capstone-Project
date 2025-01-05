@@ -1,0 +1,839 @@
+period,stateid,stateDescription,sectorid,sectorName,customers,price,revenue,sales
+2023-12,KY,Kentucky,TRA,transportation,0,0,0,0
+2023-12,LA,Louisiana,TRA,transportation,1,11.22,.08909,.79415
+2023-12,ME,Maine,TRA,transportation,0,0,0,0
+2023-12,MD,Maryland,TRA,transportation,5,11.7,3.81842,32.64136
+2023-12,MA,Massachusetts,TRA,transportation,2,6.94,1.70412,24.57242
+2023-12,MI,Michigan,TRA,transportation,2,13.68,.06102,.44594
+2022-06,PACN,Pacific Noncontiguous,TRA,transportation,0,0,0,0
+2024-01,IN,Indiana,TRA,transportation,1,11.86,.15764,1.32945
+2024-01,IA,Iowa,TRA,transportation,0,0,0,0
+2024-01,KS,Kansas,TRA,transportation,0,0,0,0
+2024-01,KY,Kentucky,TRA,transportation,0,0,0,0
+2024-07,MA,Massachusetts,TRA,transportation,2,8.76,2.1142,24.12523
+2024-07,MI,Michigan,TRA,transportation,2,14.38,.0635,.4415
+2024-07,MN,Minnesota,TRA,transportation,1,13.44,.13587,1.0111
+2024-07,MS,Mississippi,TRA,transportation,0,0,0,0
+2024-07,MO,Missouri,TRA,transportation,2,13.08,.29159,2.22927
+2024-07,MT,Montana,TRA,transportation,0,0,0,0
+2024-07,NE,Nebraska,TRA,transportation,0,0,0,0
+2024-07,NV,Nevada,TRA,transportation,1,10.75,.08868,.82478
+2024-07,NH,New Hampshire,TRA,transportation,0,0,0,0
+2024-07,NJ,New Jersey,TRA,transportation,7,10.34,3.86081,37.34227
+2024-01,LA,Louisiana,TRA,transportation,1,10.48,.09223,.88021
+2024-07,AL,Alabama,TRA,transportation,0,0,0,0
+2024-07,AK,Alaska,TRA,transportation,0,0,0,0
+2024-07,AZ,Arizona,TRA,transportation,2,12.36,.12342,.99818
+2024-07,AR,Arkansas,TRA,transportation,2,13.62,.00357,.02618
+2024-07,CA,California,TRA,transportation,13,17.19,10.64613,61.94332
+2024-07,CO,Colorado,TRA,transportation,1,9.6,.68544,7.13868
+2024-07,CT,Connecticut,TRA,transportation,3,16.5,2.85692,17.31101
+2024-07,DE,Delaware,TRA,transportation,0,0,0,0
+2024-07,DC,District of Columbia,TRA,transportation,3,9.31,2.78316,29.90183
+2024-07,FL,Florida,TRA,transportation,2,10.08,.6566,6.51542
+2024-07,GA,Georgia,TRA,transportation,1,11.5,1.61784,14.06392
+2024-07,HI,Hawaii,TRA,transportation,0,0,0,0
+2024-07,ID,Idaho,TRA,transportation,0,0,0,0
+2024-07,IL,Illinois,TRA,transportation,3,8.1,2.95403,36.46676
+2024-07,IN,Indiana,TRA,transportation,1,11.64,.19478,1.6727
+2024-07,IA,Iowa,TRA,transportation,0,0,0,0
+2024-07,KS,Kansas,TRA,transportation,0,0,0,0
+2024-07,KY,Kentucky,TRA,transportation,0,0,0,0
+2024-07,LA,Louisiana,TRA,transportation,1,11.25,.10513,.93474
+2024-07,ME,Maine,TRA,transportation,0,0,0,0
+2024-07,MD,Maryland,TRA,transportation,5,11.37,3.79478,33.38515
+2022-09,NE,Nebraska,TRA,transportation,0,0,0,0
+2022-09,NV,Nevada,TRA,transportation,1,10.27,.06965,.67815
+2022-09,NH,New Hampshire,TRA,transportation,0,0,0,0
+2022-09,NY,New York,TRA,transportation,8,14.51,31.77779,218.95504
+2022-09,NC,North Carolina,TRA,transportation,1,7.96,.1015,1.27501
+2022-09,ND,North Dakota,TRA,transportation,0,0,0,0
+2022-09,OH,Ohio,TRA,transportation,3,13.89,.29519,2.12533
+2022-09,OK,Oklahoma,TRA,transportation,0,0,0,0
+2022-09,OR,Oregon,TRA,transportation,2,10.77,.2038,1.89311
+2024-04,NEW,New England,TRA,transportation,6,12.19,4.91238,40.29482
+2024-04,MAT,Middle Atlantic,TRA,transportation,20,13.67,37.16226,271.88717
+2024-04,ENC,East North Central,TRA,transportation,10,7.22,4.5574,63.09621
+2024-04,WNC,West North Central,TRA,transportation,3,10.54,.31696,3.00711
+2024-04,SAT,South Atlantic,TRA,transportation,13,10.24,7.9049,77.22245
+2024-04,ESC,East South Central,TRA,transportation,0,0,0,0
+2024-04,WSC,West South Central,TRA,transportation,6,8.25,.11345,1.3757
+2024-04,MTN,Mountain,TRA,transportation,5,10.73,1.42598,13.28529
+2024-04,PACC,Pacific Contiguous,TRA,transportation,19,15.5,10.46529,67.53561
+2024-04,PACN,Pacific Noncontiguous,TRA,transportation,0,0,0,0
+2024-04,US,U.S. Total,TRA,transportation,82,12.43,66.85861,537.70435
+2024-04,OK,Oklahoma,TRA,transportation,0,0,0,0
+2024-04,OR,Oregon,TRA,transportation,2,12.62,.22441,1.77804
+2023-03,PACC,Pacific Contiguous,TRA,transportation,19,11.63,8.44964,72.62618
+2023-03,PACN,Pacific Noncontiguous,TRA,transportation,0,0,0,0
+2023-03,US,U.S. Total,TRA,transportation,84,12.28,70.83403,576.97647
+2023-12,AL,Alabama,TRA,transportation,0,0,0,0
+2023-12,AK,Alaska,TRA,transportation,0,0,0,0
+2023-12,AZ,Arizona,TRA,transportation,2,9.63,.0749,.77756
+2023-12,AR,Arkansas,TRA,transportation,2,15.18,.00305,.02008
+2023-12,CA,California,TRA,transportation,12,13.09,6.71329,51.26901
+2023-12,CO,Colorado,TRA,transportation,2,12.39,.98124,7.92043
+2023-12,CT,Connecticut,TRA,transportation,3,19.57,3.47643,17.76381
+2023-12,DE,Delaware,TRA,transportation,0,0,0,0
+2023-12,DC,District of Columbia,TRA,transportation,3,10.57,2.24845,21.26509
+2023-12,FL,Florida,TRA,transportation,2,11.31,.62989,5.56806
+2023-12,GA,Georgia,TRA,transportation,1,6.2,.81653,13.16384
+2023-12,HI,Hawaii,TRA,transportation,0,0,0,0
+2023-12,ID,Idaho,TRA,transportation,0,0,0,0
+2023-12,IL,Illinois,TRA,transportation,4,7.29,2.39258,32.80007
+2023-12,IN,Indiana,TRA,transportation,1,11.56,.11788,1.01964
+2023-12,IA,Iowa,TRA,transportation,0,0,0,0
+2023-12,KS,Kansas,TRA,transportation,0,0,0,0
+2009-10,NM,New Mexico,TRA,transportation,0,0,0,0
+2009-10,NY,New York,TRA,transportation,24,12.87,29.0441,225.72608
+2009-10,NC,North Carolina,TRA,transportation,1,7.16,.0417,.5828
+2009-10,ND,North Dakota,TRA,transportation,0,0,0,0
+2009-10,OH,Ohio,TRA,transportation,2,10.2,.20866,2.04656
+2009-10,OK,Oklahoma,TRA,transportation,0,0,0,0
+2009-10,OR,Oregon,TRA,transportation,58,6.96,.14159,2.03476
+2009-10,PA,Pennsylvania,TRA,transportation,14,7.86,5.61947,71.50775
+2009-10,RI,Rhode Island,TRA,transportation,0,0,0,0
+2009-10,SC,South Carolina,TRA,transportation,0,0,0,0
+2009-10,SD,South Dakota,TRA,transportation,0,0,0,0
+2009-10,TN,Tennessee,TRA,transportation,1,10.21,.01501,.147
+2009-10,TX,Texas,TRA,transportation,2,9.86,.58262,5.90771
+2009-10,UT,Utah,TRA,transportation,10,8.45,.21026,2.48909
+2009-10,VT,Vermont,TRA,transportation,0,0,0,0
+2009-10,VA,Virginia,TRA,transportation,1,8.37,1.31639,15.727
+2009-10,WA,Washington,TRA,transportation,5,6.69,.01422,.21242
+2009-10,WV,West Virginia,TRA,transportation,1,6.83,.02754,.40301
+2009-10,WI,Wisconsin,TRA,transportation,0,0,0,0
+2009-10,WY,Wyoming,TRA,transportation,0,0,0,0
+2009-10,NEW,New England,TRA,transportation,3,7.58,3.08611,40.71781
+2019-12,DE,Delaware,TRA,transportation,0,0,0,0
+2019-12,DC,District of Columbia,TRA,transportation,3,9.5,2.46855,25.98751
+2008-08,WI,Wisconsin,TRA,transportation,0,0,0,0
+2008-08,WY,Wyoming,TRA,transportation,0,0,0,0
+2008-08,NEW,New England,TRA,transportation,6,12,5.73582,47.79378
+2019-09,ID,Idaho,TRA,transportation,0,0,0,0
+2009-10,WSC,West South Central,TRA,transportation,28,9.93,.67766,6.82318
+2009-10,MTN,Mountain,TRA,transportation,29,8.68,.60834,7.00509
+2010-10,MTN,Mountain,TRA,transportation,29,9.24,.639,6.91667
+2010-10,PACC,Pacific Contiguous,TRA,transportation,75,8.32,5.95166,71.57418
+2010-10,PACN,Pacific Noncontiguous,TRA,transportation,0,0,0,0
+2010-10,US,U.S. Total,TRA,transportation,231,10.53,64.27021,610.30565
+2010-11,MS,Mississippi,TRA,transportation,0,0,0,0
+2010-11,MO,Missouri,TRA,transportation,1,4.77,.106,2.22
+2010-11,MT,Montana,TRA,transportation,0,0,0,0
+2008-08,MAT,Middle Atlantic,TRA,transportation,43,12.74,43.89183,344.60539
+2008-08,ENC,East North Central,TRA,transportation,8,8.41,4.38362,52.13029
+2008-08,WNC,West North Central,TRA,transportation,2,7.86,.29,3.691
+2008-08,SAT,South Atlantic,TRA,transportation,35,11.83,12.93893,109.37708
+2008-08,ESC,East South Central,TRA,transportation,1,10.98,.009,.082
+2008-08,WSC,West South Central,TRA,transportation,67,8.15,.54127,6.63907
+2008-08,MTN,Mountain,TRA,transportation,26,9.13,.71625,7.84347
+2008-08,PACC,Pacific Contiguous,TRA,transportation,553,9.23,7.08597,76.79009
+2008-08,PACN,Pacific Noncontiguous,TRA,transportation,0,0,0,0
+2008-08,US,U.S. Total,TRA,transportation,741,11.65,75.59269,648.95218
+2008-09,ND,North Dakota,TRA,transportation,0,0,0,0
+2009-10,ENC,East North Central,TRA,transportation,8,8.29,3.47463,41.93315
+2009-10,WNC,West North Central,TRA,transportation,2,6.56,.218,3.322
+2009-10,SAT,South Atlantic,TRA,transportation,35,10.01,10.3955,103.84367
+2009-10,ESC,East South Central,TRA,transportation,1,10.21,.01501,.147
+2009-10,MAT,Middle Atlantic,TRA,transportation,44,11.61,37.37897,321.92257
+2008-03,MA,Massachusetts,TRA,transportation,1,9.16,2.7825,30.36362
+2008-03,MI,Michigan,TRA,transportation,1,10.99,.04999,.45497
+2008-03,MN,Minnesota,TRA,transportation,1,8.47,.158,1.865
+2008-03,MS,Mississippi,TRA,transportation,0,0,0,0
+2008-03,MO,Missouri,TRA,transportation,1,4.34,.095,2.187
+2008-03,MT,Montana,TRA,transportation,0,0,0,0
+2008-03,NE,Nebraska,TRA,transportation,0,0,0,0
+2008-03,NV,Nevada,TRA,transportation,17,9.49,.058,.61093
+2008-03,NH,New Hampshire,TRA,transportation,0,0,0,0
+2008-03,NJ,New Jersey,TRA,transportation,6,12.99,3.36203,25.87901
+2008-03,NM,New Mexico,TRA,transportation,0,0,0,0
+2008-03,NY,New York,TRA,transportation,25,12.43,28.95587,232.97326
+2008-03,NC,North Carolina,TRA,transportation,0,9.4,.00033,.00356
+2008-03,ND,North Dakota,TRA,transportation,0,0,0,0
+2008-03,OH,Ohio,TRA,transportation,2,10.24,.50203,4.90267
+2008-03,OK,Oklahoma,TRA,transportation,0,0,0,0
+2008-03,OR,Oregon,TRA,transportation,45,6.97,.10204,1.46319
+2008-03,PA,Pennsylvania,TRA,transportation,14,7.93,5.34422,67.40905
+2008-03,RI,Rhode Island,TRA,transportation,0,0,0,0
+2008-03,SC,South Carolina,TRA,transportation,0,0,0,0
+2010-05,KY,Kentucky,TRA,transportation,0,0,0,0
+2010-05,LA,Louisiana,TRA,transportation,24,8.86,.082,.92589
+2010-05,ME,Maine,TRA,transportation,0,0,0,0
+2010-05,MD,Maryland,TRA,transportation,5,9.77,4.42857,45.32538
+2010-06,DC,District of Columbia,TRA,transportation,1,11.22,3.74,33.31959
+2010-06,FL,Florida,TRA,transportation,25,8.78,.66859,7.61592
+2010-11,WV,West Virginia,TRA,transportation,1,8.36,.02872,.34348
+2010-11,WI,Wisconsin,TRA,transportation,0,0,0,0
+2010-11,WY,Wyoming,TRA,transportation,0,0,0,0
+2010-12,MT,Montana,TRA,transportation,0,0,0,0
+2019-09,GA,Georgia,TRA,transportation,1,8,1.10501,13.80712
+2019-09,HI,Hawaii,TRA,transportation,0,0,0,0
+2019-11,CT,Connecticut,TRA,transportation,3,11.17,1.56325,13.99977
+2019-11,DE,Delaware,TRA,transportation,0,0,0,0
+2019-11,DC,District of Columbia,TRA,transportation,3,8.69,2.89452,33.32645
+2019-12,AR,Arkansas,TRA,transportation,2,9.61,.00281,.0292
+2019-12,CA,California,TRA,transportation,13,8.9,5.59541,62.87786
+2019-12,CO,Colorado,TRA,transportation,1,8,.77337,9.67179
+2019-12,CT,Connecticut,TRA,transportation,3,11.76,1.86799,15.87766
+2008-08,RI,Rhode Island,TRA,transportation,0,0,0,0
+2008-08,SC,South Carolina,TRA,transportation,0,0,0,0
+2008-08,SD,South Dakota,TRA,transportation,0,0,0,0
+2008-08,TN,Tennessee,TRA,transportation,1,10.98,.009,.082
+2008-08,TX,Texas,TRA,transportation,42,7.72,.46767,6.05505
+2008-08,UT,Utah,TRA,transportation,8,7.94,.22125,2.78557
+2008-08,VT,Vermont,TRA,transportation,0,0,0,0
+2008-08,VA,Virginia,TRA,transportation,1,8.63,1.37987,15.989
+2008-08,WA,Washington,TRA,transportation,4,6.06,.00676,.11162
+2008-08,WV,West Virginia,TRA,transportation,1,6.01,.01852,.30808
+2008-09,MN,Minnesota,TRA,transportation,1,7.91,.142,1.795
+2008-09,MS,Mississippi,TRA,transportation,0,0,0,0
+2008-09,MO,Missouri,TRA,transportation,1,7.34,.133,1.813
+2008-09,MT,Montana,TRA,transportation,0,0,0,0
+2008-09,NE,Nebraska,TRA,transportation,0,0,0,0
+2008-09,NV,Nevada,TRA,transportation,17,9.5,.065,.68392
+2008-09,NH,New Hampshire,TRA,transportation,0,0,0,0
+2008-09,NJ,New Jersey,TRA,transportation,6,13.18,3.62525,27.50305
+2008-09,NM,New Mexico,TRA,transportation,0,0,0,0
+2008-09,NY,New York,TRA,transportation,23,13.09,32.08489,245.10209
+2008-08,NY,New York,TRA,transportation,23,14.45,35.28695,244.27654
+2008-08,NC,North Carolina,TRA,transportation,1,6.31,.03672,.58155
+2008-09,NC,North Carolina,TRA,transportation,1,6.61,.039,.58991
+2008-10,AR,Arkansas,TRA,transportation,2,12.42,.00408,.03286
+2008-10,CA,California,TRA,transportation,520,8.37,6.18027,73.84551
+2008-10,CO,Colorado,TRA,transportation,1,8.07,.337,4.174
+2008-11,AK,Alaska,TRA,transportation,0,0,0,0
+2008-10,CT,Connecticut,TRA,transportation,5,19.6,4.01352,20.47229
+2008-10,DE,Delaware,TRA,transportation,0,0,0,0
+2008-10,DC,District of Columbia,TRA,transportation,1,16.37,4.23095,25.84004
+2008-10,FL,Florida,TRA,transportation,25,10.74,.75912,7.06667
+2008-10,GA,Georgia,TRA,transportation,1,6.9,1.0125,14.66599
+2008-11,AZ,Arizona,TRA,transportation,0,0,0,0
+2008-11,AR,Arkansas,TRA,transportation,2,12.61,.00353,.02799
+2008-11,CA,California,TRA,transportation,495,8.02,5.54997,69.17567
+2008-12,AL,Alabama,TRA,transportation,0,0,0,0
+2009-10,MN,Minnesota,TRA,transportation,1,7.82,.142,1.815
+2009-10,MS,Mississippi,TRA,transportation,0,0,0,0
+2009-10,MO,Missouri,TRA,transportation,1,5.04,.076,1.507
+2009-10,MT,Montana,TRA,transportation,0,0,0,0
+2009-10,NE,Nebraska,TRA,transportation,0,0,0,0
+2009-10,NV,Nevada,TRA,transportation,18,10.8,.07008,.649
+2009-10,NH,New Hampshire,TRA,transportation,0,0,0,0
+2009-10,NJ,New Jersey,TRA,transportation,6,11,2.7154,24.68874
+2008-08,NH,New Hampshire,TRA,transportation,0,0,0,0
+2008-08,NJ,New Jersey,TRA,transportation,6,14.54,3.32578,22.86795
+2008-08,NM,New Mexico,TRA,transportation,0,0,0,0
+2008-09,ID,Idaho,TRA,transportation,0,0,0,0
+2008-09,IL,Illinois,TRA,transportation,4,8.24,3.7274,45.25357
+2008-09,IN,Indiana,TRA,transportation,1,10.29,.143,1.39
+2008-09,IA,Iowa,TRA,transportation,0,0,0,0
+2008-09,KS,Kansas,TRA,transportation,0,0,0,0
+2008-09,KY,Kentucky,TRA,transportation,0,0,0,0
+2008-09,LA,Louisiana,TRA,transportation,21,13.66,.06096,.44629
+2008-09,ME,Maine,TRA,transportation,0,0,0,0
+2008-09,MD,Maryland,TRA,transportation,5,15.72,6.70442,42.65146
+2008-09,MA,Massachusetts,TRA,transportation,1,9.67,2.44477,25.28794
+2008-09,MI,Michigan,TRA,transportation,1,12.3,.03799,.30898
+2010-07,TN,Tennessee,TRA,transportation,1,10.64,.02,.188
+2010-07,TX,Texas,TRA,transportation,3,9.85,.63851,6.48142
+2010-07,UT,Utah,TRA,transportation,10,9.14,.2353,2.57347
+2010-07,VT,Vermont,TRA,transportation,0,0,0,0
+2010-07,VA,Virginia,TRA,transportation,1,7.25,1.10071,15.178
+2010-07,WA,Washington,TRA,transportation,6,7.22,.04353,.60319
+2010-10,WNC,West North Central,TRA,transportation,2,7.01,.228,3.254
+2010-10,SAT,South Atlantic,TRA,transportation,42,8.69,8.86085,101.94964
+2010-10,ESC,East South Central,TRA,transportation,1,14.85,.015,.101
+2010-10,ND,North Dakota,TRA,transportation,0,0,0,0
+2010-10,OH,Ohio,TRA,transportation,3,8.66,.17385,2.00832
+2010-10,OK,Oklahoma,TRA,transportation,0,0,0,0
+2010-11,HI,Hawaii,TRA,transportation,0,0,0,0
+2010-11,ID,Idaho,TRA,transportation,0,0,0,0
+2010-11,IL,Illinois,TRA,transportation,3,6.38,2.75671,43.2214
+2010-11,IN,Indiana,TRA,transportation,1,9.57,.16709,1.74691
+2010-12,AZ,Arizona,TRA,transportation,0,0,0,0
+2010-12,AR,Arkansas,TRA,transportation,2,11.08,.00401,.03616
+2010-07,WV,West Virginia,TRA,transportation,1,7.85,.02626,.33438
+2010-07,WI,Wisconsin,TRA,transportation,0,0,0,0
+2010-07,WY,Wyoming,TRA,transportation,0,0,0,0
+2010-10,WSC,West South Central,TRA,transportation,27,9.84,.72059,7.32354
+2010-12,HI,Hawaii,TRA,transportation,0,0,0,0
+2010-12,ID,Idaho,TRA,transportation,0,0,0,0
+2010-10,NE,Nebraska,TRA,transportation,0,0,0,0
+2010-10,NV,Nevada,TRA,transportation,18,8.88,.064,.721
+2010-10,NH,New Hampshire,TRA,transportation,0,0,0,0
+2010-10,NJ,New Jersey,TRA,transportation,6,10.3,2.46805,23.96997
+2010-10,NM,New Mexico,TRA,transportation,0,0,0,0
+2010-10,NY,New York,TRA,transportation,22,14.03,33.34797,237.64003
+2010-10,NC,North Carolina,TRA,transportation,8,6.9,.0373,.5406
+2008-10,AK,Alaska,TRA,transportation,0,0,0,0
+2008-10,AZ,Arizona,TRA,transportation,0,0,0,0
+2008-11,AL,Alabama,TRA,transportation,0,0,0,0
+2010-11,NE,Nebraska,TRA,transportation,0,0,0,0
+2010-12,DE,Delaware,TRA,transportation,0,0,0,0
+2010-12,DC,District of Columbia,TRA,transportation,1,12.23,3.41071,27.89017
+2010-12,FL,Florida,TRA,transportation,25,9.08,.64554,7.10722
+2010-12,GA,Georgia,TRA,transportation,1,7.74,1.08695,14.04027
+2010-04,MI,Michigan,TRA,transportation,1,10.69,.04191,.392
+2010-05,IA,Iowa,TRA,transportation,0,0,0,0
+2010-05,KS,Kansas,TRA,transportation,0,0,0,0
+2008-03,CT,Connecticut,TRA,transportation,5,12.75,2.12487,16.66196
+2008-03,DE,Delaware,TRA,transportation,0,0,0,0
+2008-03,DC,District of Columbia,TRA,transportation,1,12,2.85289,23.77493
+2008-03,FL,Florida,TRA,transportation,25,10.07,.67219,6.6725
+2008-03,GA,Georgia,TRA,transportation,1,6.54,.94443,14.45199
+2008-03,HI,Hawaii,TRA,transportation,0,0,0,0
+2008-03,ID,Idaho,TRA,transportation,0,0,0,0
+2008-03,IL,Illinois,TRA,transportation,4,6.42,3.6475,56.83351
+2008-03,IN,Indiana,TRA,transportation,1,9.18,.167,1.82
+2008-03,IA,Iowa,TRA,transportation,0,0,0,0
+2008-03,KS,Kansas,TRA,transportation,0,0,0,0
+2008-03,KY,Kentucky,TRA,transportation,0,0,0,0
+2008-03,LA,Louisiana,TRA,transportation,25,11.99,.04038,.33666
+2008-03,ME,Maine,TRA,transportation,0,0,0,0
+2008-03,MD,Maryland,TRA,transportation,5,10.22,4.51182,44.16213
+2009-10,IL,Illinois,TRA,transportation,4,8.09,3.08711,38.16466
+2009-10,IN,Indiana,TRA,transportation,1,10.37,.13686,1.31993
+2009-10,IA,Iowa,TRA,transportation,0,0,0,0
+2009-10,KS,Kansas,TRA,transportation,0,0,0,0
+2009-10,KY,Kentucky,TRA,transportation,0,0,0,0
+2009-10,LA,Louisiana,TRA,transportation,24,10.3,.09109,.88462
+2009-10,ME,Maine,TRA,transportation,0,0,0,0
+2009-10,MD,Maryland,TRA,transportation,5,10.3,4.30401,41.78182
+2009-10,MA,Massachusetts,TRA,transportation,1,5.7,1.54132,27.05648
+2009-10,MI,Michigan,TRA,transportation,1,10.45,.042,.402
+2009-11,CO,Colorado,TRA,transportation,1,8.88,.325,3.658
+2009-11,CT,Connecticut,TRA,transportation,2,11.93,1.58673,13.30001
+2009-11,DE,Delaware,TRA,transportation,0,0,0,0
+2009-11,DC,District of Columbia,TRA,transportation,1,13.05,3.07736,23.57876
+2009-11,FL,Florida,TRA,transportation,25,10.93,.73273,6.70332
+2009-11,GA,Georgia,TRA,transportation,1,6.38,.81866,12.83977
+2009-11,HI,Hawaii,TRA,transportation,0,0,0,0
+2009-11,ID,Idaho,TRA,transportation,0,0,0,0
+2009-11,IL,Illinois,TRA,transportation,4,7.83,2.99591,38.24609
+2009-11,IN,Indiana,TRA,transportation,1,9.36,.14385,1.53692
+2009-11,IA,Iowa,TRA,transportation,0,0,0,0
+2009-12,AK,Alaska,TRA,transportation,0,0,0,0
+2009-12,AZ,Arizona,TRA,transportation,0,0,0,0
+2009-12,AR,Arkansas,TRA,transportation,2,10.22,.00399,.03898
+2009-12,CA,California,TRA,transportation,495,8.24,5.61432,68.15559
+2009-12,CO,Colorado,TRA,transportation,1,8.7,.381,4.381
+2008-08,LA,Louisiana,TRA,transportation,23,12.57,.0694,.55204
+2008-08,ME,Maine,TRA,transportation,0,0,0,0
+2008-08,MD,Maryland,TRA,transportation,5,11.7,4.95381,42.34046
+2008-08,MA,Massachusetts,TRA,transportation,1,11.55,3.03995,26.32911
+2008-08,MI,Michigan,TRA,transportation,1,12.65,.05099,.40298
+2008-08,MN,Minnesota,TRA,transportation,1,7.99,.146,1.827
+2008-08,MS,Mississippi,TRA,transportation,0,0,0,0
+2008-08,MO,Missouri,TRA,transportation,1,7.73,.144,1.864
+2008-08,MT,Montana,TRA,transportation,0,0,0,0
+2008-08,NE,Nebraska,TRA,transportation,0,0,0,0
+2008-09,DE,Delaware,TRA,transportation,0,0,0,0
+2008-09,DC,District of Columbia,TRA,transportation,1,16.29,4.4428,27.27265
+2008-09,FL,Florida,TRA,transportation,25,10.65,.77337,7.26099
+2008-09,GA,Georgia,TRA,transportation,1,7.62,1.23918,16.25451
+2008-09,HI,Hawaii,TRA,transportation,0,0,0,0
+2008-10,AL,Alabama,TRA,transportation,0,0,0,0
+2009-09,PA,Pennsylvania,TRA,transportation,14,7.55,5.55519,73.62225
+2009-09,RI,Rhode Island,TRA,transportation,0,0,0,0
+2010-04,AL,Alabama,TRA,transportation,0,0,0,0
+2010-04,AK,Alaska,TRA,transportation,0,0,0,0
+2010-04,AZ,Arizona,TRA,transportation,0,0,0,0
+2010-04,AR,Arkansas,TRA,transportation,2,11.36,.00374,.03291
+2010-04,CA,California,TRA,transportation,14,7.93,5.30584,66.94567
+2010-04,CO,Colorado,TRA,transportation,1,9.66,.35,3.625
+2010-04,CT,Connecticut,TRA,transportation,2,12.93,2.1312,16.47934
+2010-04,DE,Delaware,TRA,transportation,0,0,0,0
+2010-04,DC,District of Columbia,TRA,transportation,1,9.68,2.17205,22.43526
+2010-04,FL,Florida,TRA,transportation,25,9.09,.58486,6.43408
+2010-04,GA,Georgia,TRA,transportation,1,6.94,.93616,13.48196
+2010-12,KS,Kansas,TRA,transportation,0,0,0,0
+2010-12,KY,Kentucky,TRA,transportation,0,0,0,0
+2010-01,ESC,East South Central,TRA,transportation,1,9.5,.019,.2
+2010-01,WSC,West South Central,TRA,transportation,36,9.75,.68028,6.97628
+2010-01,MTN,Mountain,TRA,transportation,29,8.12,.64887,7.99237
+2010-01,PACC,Pacific Contiguous,TRA,transportation,78,7.98,5.66026,70.89108
+2010-01,PACN,Pacific Noncontiguous,TRA,transportation,0,0,0,0
+2010-01,US,U.S. Total,TRA,transportation,260,10.19,72.28664,709.47872
+2010-04,HI,Hawaii,TRA,transportation,0,0,0,0
+2010-04,ID,Idaho,TRA,transportation,0,0,0,0
+2010-05,AL,Alabama,TRA,transportation,0,0,0,0
+2010-05,AK,Alaska,TRA,transportation,0,0,0,0
+2010-05,AZ,Arizona,TRA,transportation,0,0,0,0
+2010-05,AR,Arkansas,TRA,transportation,2,11.32,.00368,.0325
+2010-05,CA,California,TRA,transportation,14,7.87,5.31423,67.49222
+2010-06,AL,Alabama,TRA,transportation,0,0,0,0
+2010-06,AK,Alaska,TRA,transportation,0,0,0,0
+2010-06,AZ,Arizona,TRA,transportation,0,0,0,0
+2010-07,WNC,West North Central,TRA,transportation,2,8.3,.292,3.519
+2010-07,SAT,South Atlantic,TRA,transportation,42,10.23,11.40411,111.52253
+2010-07,ESC,East South Central,TRA,transportation,1,10.64,.02,.188
+2010-07,WSC,West South Central,TRA,transportation,27,9.93,.74466,7.49943
+2010-07,MTN,Mountain,TRA,transportation,29,9.8,.7113,7.25647
+2010-07,PACC,Pacific Contiguous,TRA,transportation,78,8.58,6.26794,73.0593
+2010-07,PACN,Pacific Noncontiguous,TRA,transportation,0,0,0,0
+2010-11,ND,North Dakota,TRA,transportation,0,0,0,0
+2010-11,OH,Ohio,TRA,transportation,3,7.93,.26137,3.29758
+2010-11,OK,Oklahoma,TRA,transportation,0,0,0,0
+2009-09,SC,South Carolina,TRA,transportation,0,0,0,0
+2009-09,SD,South Dakota,TRA,transportation,0,0,0,0
+2009-09,TN,Tennessee,TRA,transportation,1,10.76,.01721,.16
+2009-09,TX,Texas,TRA,transportation,2,9.83,.59988,6.10112
+2009-09,UT,Utah,TRA,transportation,9,8.6,.23551,2.7393
+2009-09,VT,Vermont,TRA,transportation,0,0,0,0
+2009-09,VA,Virginia,TRA,transportation,1,8.2,1.35127,16.477
+2009-09,WA,Washington,TRA,transportation,4,6.34,.01698,.26779
+2009-09,WV,West Virginia,TRA,transportation,1,6.77,.0252,.37239
+2009-09,WI,Wisconsin,TRA,transportation,0,0,0,0
+2009-09,WY,Wyoming,TRA,transportation,0,0,0,0
+2009-09,NEW,New England,TRA,transportation,3,7.42,3.23554,43.62991
+2009-09,MAT,Middle Atlantic,TRA,transportation,44,12.55,43.83282,349.38098
+2009-09,ENC,East North Central,TRA,transportation,8,8.18,3.80737,46.54705
+2009-09,WNC,West North Central,TRA,transportation,2,8.01,.269,3.36
+2009-09,SAT,South Atlantic,TRA,transportation,35,8.76,9.42605,107.62594
+2009-09,ESC,East South Central,TRA,transportation,1,10.76,.01721,.16
+2009-09,WSC,West South Central,TRA,transportation,28,9.94,.68927,6.93306
+2009-09,MTN,Mountain,TRA,transportation,28,9.01,.62158,6.8983
+2009-09,PACC,Pacific Contiguous,TRA,transportation,558,8.92,6.40511,71.7693
+2009-09,PACN,Pacific Noncontiguous,TRA,transportation,0,0,0,0
+2009-09,US,U.S. Total,TRA,transportation,707,10.73,68.30396,636.30455
+2009-10,DE,Delaware,TRA,transportation,0,0,0,0
+2009-10,DC,District of Columbia,TRA,transportation,1,12.36,2.99967,24.26109
+2009-10,FL,Florida,TRA,transportation,25,10.26,.78436,7.64719
+2009-10,GA,Georgia,TRA,transportation,1,6.86,.92184,13.44076
+2009-10,HI,Hawaii,TRA,transportation,0,0,0,0
+2009-10,ID,Idaho,TRA,transportation,0,0,0,0
+2009-11,AZ,Arizona,TRA,transportation,0,0,0,0
+2009-11,AR,Arkansas,TRA,transportation,2,12.22,.00362,.02959
+2009-11,CA,California,TRA,transportation,495,8.41,5.7967,68.90402
+2009-12,AL,Alabama,TRA,transportation,0,0,0,0
+2010-01,MAT,Middle Atlantic,TRA,transportation,59,11.91,44.8619,376.6054
+2010-01,ENC,East North Central,TRA,transportation,8,6.92,5.04336,72.92144
+2010-01,WNC,West North Central,TRA,transportation,2,5.83,.246,4.218
+2010-01,SAT,South Atlantic,TRA,transportation,42,8.74,10.23163,117.07898
+2010-07,NEW,New England,TRA,transportation,5,8.64,3.91534,45.32491
+2010-07,MAT,Middle Atlantic,TRA,transportation,44,12.61,45.69327,362.46856
+2010-07,ENC,East North Central,TRA,transportation,9,6.96,3.50578,50.39309
+2010-11,NV,Nevada,TRA,transportation,18,8.02,.049,.611
+2010-11,NH,New Hampshire,TRA,transportation,0,0,0,0
+2010-11,NJ,New Jersey,TRA,transportation,6,10.24,2.46645,24.08586
+2010-11,NM,New Mexico,TRA,transportation,0,0,0,0
+2010-11,NY,New York,TRA,transportation,21,14.2,32.83891,231.21495
+2010-11,NC,North Carolina,TRA,transportation,8,6.84,.03387,.49488
+2010-12,IL,Illinois,TRA,transportation,3,6.28,3.98508,63.40768
+2010-12,IN,Indiana,TRA,transportation,1,9.67,.21012,2.17189
+2010-12,IA,Iowa,TRA,transportation,0,0,0,0
+2010-01,VA,Virginia,TRA,transportation,1,7.68,1.29167,16.819
+2010-01,WA,Washington,TRA,transportation,7,7.24,.03835,.52956
+2008-07,NEW,New England,TRA,transportation,6,14.77,6.19699,41.94456
+2008-07,MAT,Middle Atlantic,TRA,transportation,43,13.18,45.26965,343.34778
+2008-07,ENC,East North Central,TRA,transportation,8,8.49,4.26888,50.28046
+2008-07,WNC,West North Central,TRA,transportation,2,7.26,.298,4.103
+2008-07,SAT,South Atlantic,TRA,transportation,35,11.04,13.00297,117.77345
+2008-07,ESC,East South Central,TRA,transportation,1,10.91,.012,.11
+2008-07,WSC,West South Central,TRA,transportation,65,8.64,.64057,7.41234
+2008-07,MTN,Mountain,TRA,transportation,26,9.22,.70962,7.69813
+2008-07,PACC,Pacific Contiguous,TRA,transportation,552,8.07,6.12888,75.90258
+2008-07,PACN,Pacific Noncontiguous,TRA,transportation,0,0,0,0
+2008-07,US,U.S. Total,TRA,transportation,738,11.8,76.52755,648.57229
+2008-08,NV,Nevada,TRA,transportation,17,10.06,.081,.8049
+2010-01,WV,West Virginia,TRA,transportation,1,9.76,.03401,.34838
+2010-01,WI,Wisconsin,TRA,transportation,0,0,0,0
+2010-01,WY,Wyoming,TRA,transportation,0,0,0,0
+2010-01,NEW,New England,TRA,transportation,5,9.31,4.89534,52.59516
+2008-07,PA,Pennsylvania,TRA,transportation,14,8.4,5.68199,67.63856
+2008-07,RI,Rhode Island,TRA,transportation,0,0,0,0
+2008-07,SC,South Carolina,TRA,transportation,0,0,0,0
+2008-07,SD,South Dakota,TRA,transportation,0,0,0,0
+2008-07,TN,Tennessee,TRA,transportation,1,10.91,.012,.11
+2008-07,TX,Texas,TRA,transportation,42,8.52,.58929,6.91384
+2008-07,UT,Utah,TRA,transportation,8,8.02,.21662,2.70024
+2008-07,VT,Vermont,TRA,transportation,0,0,0,0
+2008-07,VA,Virginia,TRA,transportation,1,8.05,1.29909,16.134
+2008-07,WA,Washington,TRA,transportation,4,5.9,.00573,.09715
+2008-07,WV,West Virginia,TRA,transportation,1,5.63,.01631,.28957
+2008-07,WI,Wisconsin,TRA,transportation,0,0,0,0
+2008-07,WY,Wyoming,TRA,transportation,0,0,0,0
+2008-08,KY,Kentucky,TRA,transportation,0,0,0,0
+2010-11,MAT,Middle Atlantic,TRA,transportation,41,12.71,41.07071,323.02918
+2010-11,ENC,East North Central,TRA,transportation,8,6.62,3.21753,48.61889
+2010-12,NE,Nebraska,TRA,transportation,0,0,0,0
+2010-12,NV,Nevada,TRA,transportation,18,8.04,.052,.647
+2010-12,NH,New Hampshire,TRA,transportation,0,0,0,0
+2016-11,AK,Alaska,TRA,transportation,0,0,0,0
+2016-11,AZ,Arizona,TRA,transportation,2,9.57,.05729,.59838
+2008-03,TX,Texas,TRA,transportation,42,8.57,.46567,5.43082
+2008-03,UT,Utah,TRA,transportation,8,7.8,.22485,2.88175
+2008-03,VT,Vermont,TRA,transportation,0,0,0,0
+2008-03,VA,Virginia,TRA,transportation,1,7.12,1.06326,14.935
+2008-03,WA,Washington,TRA,transportation,4,5.67,.0089,.15692
+2008-03,WV,West Virginia,TRA,transportation,1,6.67,.02897,.43439
+2008-03,WI,Wisconsin,TRA,transportation,0,0,0,0
+2008-03,WY,Wyoming,TRA,transportation,0,0,0,0
+2008-03,NEW,New England,TRA,transportation,6,10.44,4.90737,47.02558
+2008-03,MAT,Middle Atlantic,TRA,transportation,45,11.54,37.66211,326.26132
+2008-03,ENC,East North Central,TRA,transportation,8,6.82,4.36652,64.01115
+2008-03,WNC,West North Central,TRA,transportation,2,6.24,.253,4.052
+2009-12,MD,Maryland,TRA,transportation,5,10.17,5.15828,50.70049
+2009-12,MA,Massachusetts,TRA,transportation,1,6.12,2.0608,33.68611
+2009-12,MI,Michigan,TRA,transportation,1,10.42,.0395,.379
+2009-12,MN,Minnesota,TRA,transportation,1,7.85,.143,1.821
+2009-12,MS,Mississippi,TRA,transportation,0,0,0,0
+2009-12,MO,Missouri,TRA,transportation,1,4.73,.087,1.84
+2009-12,MT,Montana,TRA,transportation,0,0,0,0
+2009-12,NE,Nebraska,TRA,transportation,0,0,0,0
+2009-12,NV,Nevada,TRA,transportation,18,9.16,.05606,.612
+2008-03,SD,South Dakota,TRA,transportation,0,0,0,0
+2009-11,NV,Nevada,TRA,transportation,18,9.07,.06107,.673
+2009-11,NH,New Hampshire,TRA,transportation,0,0,0,0
+2009-11,NJ,New Jersey,TRA,transportation,6,12.22,2.9087,23.80244
+2009-11,NM,New Mexico,TRA,transportation,0,0,0,0
+2009-11,NY,New York,TRA,transportation,28,12.98,29.97412,230.96548
+2009-11,NC,North Carolina,TRA,transportation,1,7.22,.0351,.48645
+2009-11,ND,North Dakota,TRA,transportation,0,0,0,0
+2009-11,OH,Ohio,TRA,transportation,2,9.81,.19263,1.96407
+2009-11,OK,Oklahoma,TRA,transportation,0,0,0,0
+2009-11,OR,Oregon,TRA,transportation,58,6.79,.14466,2.13
+2009-11,PA,Pennsylvania,TRA,transportation,14,8.09,5.41028,66.86524
+2009-11,RI,Rhode Island,TRA,transportation,0,0,0,0
+2009-11,SC,South Carolina,TRA,transportation,0,0,0,0
+2009-11,SD,South Dakota,TRA,transportation,0,0,0,0
+2009-12,LA,Louisiana,TRA,transportation,23,9.38,.07574,.80726
+2009-12,ME,Maine,TRA,transportation,0,0,0,0
+2008-03,SAT,South Atlantic,TRA,transportation,34,9.65,10.07389,104.43449
+2008-03,ESC,East South Central,TRA,transportation,1,6.6,.014,.212
+2008-04,AL,Alabama,TRA,transportation,0,0,0,0
+2008-04,AK,Alaska,TRA,transportation,0,0,0,0
+2008-04,AZ,Arizona,TRA,transportation,0,0,0,0
+2008-04,AR,Arkansas,TRA,transportation,2,11.13,.00388,.03483
+2008-04,CA,California,TRA,transportation,474,7.94,5.57032,70.11588
+2008-05,AL,Alabama,TRA,transportation,0,0,0,0
+2008-05,AK,Alaska,TRA,transportation,0,0,0,0
+2008-05,AZ,Arizona,TRA,transportation,0,0,0,0
+2008-06,AL,Alabama,TRA,transportation,0,0,0,0
+2010-04,IL,Illinois,TRA,transportation,4,7.12,2.70377,37.95932
+2010-04,IN,Indiana,TRA,transportation,1,9.15,.13608,1.48793
+2010-04,IA,Iowa,TRA,transportation,0,0,0,0
+2010-05,CO,Colorado,TRA,transportation,1,9.94,.357,3.593
+2008-08,ND,North Dakota,TRA,transportation,0,0,0,0
+2008-08,OH,Ohio,TRA,transportation,2,11.49,.34824,3.03174
+2008-08,OK,Oklahoma,TRA,transportation,0,0,0,0
+2008-08,OR,Oregon,TRA,transportation,45,6.64,.112,1.68602
+2008-08,PA,Pennsylvania,TRA,transportation,14,6.82,5.27909,77.4609
+2008-12,CO,Colorado,TRA,transportation,1,8.02,.364,4.54
+2009-08,AL,Alabama,TRA,transportation,0,0,0,0
+2009-11,TN,Tennessee,TRA,transportation,1,10.36,.01771,.171
+2009-11,TX,Texas,TRA,transportation,2,9.93,.48888,4.92455
+2009-11,UT,Utah,TRA,transportation,10,7.9,.21887,2.76935
+2009-11,VT,Vermont,TRA,transportation,0,0,0,0
+2009-11,VA,Virginia,TRA,transportation,1,8.14,1.0857,13.338
+2009-11,WA,Washington,TRA,transportation,6,6.37,.01534,.24075
+2009-11,WV,West Virginia,TRA,transportation,1,7.35,.02973,.40449
+2009-11,WI,Wisconsin,TRA,transportation,0,0,0,0
+2009-11,WY,Wyoming,TRA,transportation,0,0,0,0
+2009-11,NEW,New England,TRA,transportation,3,8.05,3.22357,40.0535
+2009-11,MAT,Middle Atlantic,TRA,transportation,48,11.91,38.2931,321.63315
+2009-11,ENC,East North Central,TRA,transportation,8,8,3.37139,42.12409
+2009-11,WNC,West North Central,TRA,transportation,2,6.42,.216,3.363
+2009-11,SAT,South Atlantic,TRA,transportation,35,10.52,10.34738,98.31542
+2009-11,ESC,East South Central,TRA,transportation,1,10.36,.01771,.171
+2009-11,WSC,West South Central,TRA,transportation,27,9.97,.58462,5.86319
+2009-11,MTN,Mountain,TRA,transportation,29,8.52,.60493,7.10035
+2009-11,PACC,Pacific Contiguous,TRA,transportation,559,8.36,5.9567,71.27477
+2009-11,PACN,Pacific Noncontiguous,TRA,transportation,0,0,0,0
+2009-11,US,U.S. Total,TRA,transportation,712,10.61,62.61539,589.89847
+2009-12,NJ,New Jersey,TRA,transportation,6,13.27,3.6193,27.27079
+2009-12,NM,New Mexico,TRA,transportation,0,0,0,0
+2009-12,NY,New York,TRA,transportation,28,12.87,35.33845,274.54972
+2009-12,NC,North Carolina,TRA,transportation,1,7.05,.03842,.54476
+2009-12,ND,North Dakota,TRA,transportation,0,0,0,0
+2009-12,OH,Ohio,TRA,transportation,2,9.63,.36266,3.76511
+2010-04,MN,Minnesota,TRA,transportation,1,7.87,.14,1.78
+2019-09,DC,District of Columbia,TRA,transportation,3,8.76,5.73142,65.41491
+2019-09,FL,Florida,TRA,transportation,2,8.44,.56841,6.73393
+2010-11,NEW,New England,TRA,transportation,5,7.4,3.28684,44.41336
+2009-11,MO,Missouri,TRA,transportation,1,4.93,.078,1.581
+2009-11,MT,Montana,TRA,transportation,0,0,0,0
+2009-11,NE,Nebraska,TRA,transportation,0,0,0,0
+2009-12,CT,Connecticut,TRA,transportation,2,11.29,2.04972,18.1561
+2009-12,DE,Delaware,TRA,transportation,0,0,0,0
+2009-12,DC,District of Columbia,TRA,transportation,1,12.17,3.21683,26.4239
+2009-12,FL,Florida,TRA,transportation,25,10.67,.72779,6.82067
+2009-12,GA,Georgia,TRA,transportation,1,7.13,1.02129,14.33136
+2009-12,HI,Hawaii,TRA,transportation,0,0,0,0
+2009-12,ID,Idaho,TRA,transportation,0,0,0,0
+2009-12,IL,Illinois,TRA,transportation,4,7.9,3.70549,46.87641
+2009-12,IN,Indiana,TRA,transportation,1,8.61,.17382,2.0179
+2009-12,IA,Iowa,TRA,transportation,0,0,0,0
+2009-12,KS,Kansas,TRA,transportation,0,0,0,0
+2009-12,KY,Kentucky,TRA,transportation,0,0,0,0
+2020-02,NEW,New England,TRA,transportation,6,11.51,5.24456,45.55318
+2020-02,MAT,Middle Atlantic,TRA,transportation,19,10.74,32.15387,299.46663
+2020-02,ENC,East North Central,TRA,transportation,11,5.97,3.28428,55.05337
+2020-02,WNC,West North Central,TRA,transportation,3,8.16,.35982,4.40818
+2020-02,SAT,South Atlantic,TRA,transportation,13,7.65,8.70688,113.76042
+2020-08,MT,Montana,TRA,transportation,0,0,0,0
+2020-08,NE,Nebraska,TRA,transportation,0,0,0,0
+2020-08,NV,Nevada,TRA,transportation,1,8.54,.02006,.235
+2020-08,NH,New Hampshire,TRA,transportation,0,0,0,0
+2020-06,DE,Delaware,TRA,transportation,0,0,0,0
+2020-06,DC,District of Columbia,TRA,transportation,3,10.49,2.19368,20.91245
+2020-07,MT,Montana,TRA,transportation,0,0,0,0
+2020-07,NE,Nebraska,TRA,transportation,0,0,0,0
+2020-07,MAT,Middle Atlantic,TRA,transportation,19,11.92,34.39765,288.48145
+2008-12,NY,New York,TRA,transportation,25,11.98,31.08476,259.47816
+2008-12,ND,North Dakota,TRA,transportation,0,0,0,0
+2009-08,CT,Connecticut,TRA,transportation,2,11.18,1.61861,14.48089
+2009-08,DE,Delaware,TRA,transportation,0,0,0,0
+2020-08,MS,Mississippi,TRA,transportation,0,0,0,0
+2020-08,MO,Missouri,TRA,transportation,2,10.84,.18008,1.66133
+2016-11,AR,Arkansas,TRA,transportation,2,11.64,.00398,.03416
+2016-11,CA,California,TRA,transportation,15,9.02,4.97542,55.16019
+2018-08,AR,Arkansas,TRA,transportation,2,11.68,.00469,.0401
+2008-10,IN,Indiana,TRA,transportation,1,10.47,.147,1.404
+2008-10,IA,Iowa,TRA,transportation,0,0,0,0
+2008-10,KS,Kansas,TRA,transportation,0,0,0,0
+2008-10,KY,Kentucky,TRA,transportation,0,0,0,0
+2008-10,LA,Louisiana,TRA,transportation,25,11.88,.06283,.52875
+2008-10,ME,Maine,TRA,transportation,0,0,0,0
+2008-10,MD,Maryland,TRA,transportation,5,14.89,6.45797,43.36727
+2008-10,MA,Massachusetts,TRA,transportation,1,8.56,2.18721,25.53808
+2008-10,MI,Michigan,TRA,transportation,1,10.37,.03899,.37598
+2008-10,MN,Minnesota,TRA,transportation,1,7.94,.143,1.801
+2008-10,MS,Mississippi,TRA,transportation,0,0,0,0
+2008-10,MO,Missouri,TRA,transportation,1,4.74,.078,1.647
+2008-10,MT,Montana,TRA,transportation,0,0,0,0
+2008-10,NE,Nebraska,TRA,transportation,0,0,0,0
+2008-10,NV,Nevada,TRA,transportation,17,8.68,.055,.63392
+2008-10,NH,New Hampshire,TRA,transportation,0,0,0,0
+2008-11,CT,Connecticut,TRA,transportation,5,9.83,1.44778,14.72871
+2008-11,DE,Delaware,TRA,transportation,0,0,0,0
+2008-11,DC,District of Columbia,TRA,transportation,1,16.36,4.04628,24.73031
+2008-11,FL,Florida,TRA,transportation,25,10.67,.75935,7.11531
+2008-11,GA,Georgia,TRA,transportation,1,6.73,.91047,13.52159
+2008-11,HI,Hawaii,TRA,transportation,0,0,0,0
+2008-11,ID,Idaho,TRA,transportation,0,0,0,0
+2008-11,IL,Illinois,TRA,transportation,4,8.68,3.4052,39.23332
+2008-11,IN,Indiana,TRA,transportation,1,10.54,.153,1.451
+2008-11,IA,Iowa,TRA,transportation,0,0,0,0
+2008-11,KS,Kansas,TRA,transportation,0,0,0,0
+2008-12,AK,Alaska,TRA,transportation,0,0,0,0
+2008-12,AZ,Arizona,TRA,transportation,0,0,0,0
+2008-12,AR,Arkansas,TRA,transportation,2,12.45,.00394,.03169
+2008-12,CA,California,TRA,transportation,507,8.15,5.85794,71.90412
+2020-02,WA,Washington,TRA,transportation,5,9.93,.80132,8.07378
+2020-02,WV,West Virginia,TRA,transportation,0,0,0,0
+2020-02,WI,Wisconsin,TRA,transportation,2,14.33,.01601,.11175
+2020-02,WY,Wyoming,TRA,transportation,0,0,0,0
+2008-03,TN,Tennessee,TRA,transportation,1,6.6,.014,.212
+2008-09,OH,Ohio,TRA,transportation,2,12.42,.47341,3.8124
+2008-09,OK,Oklahoma,TRA,transportation,0,0,0,0
+2008-09,OR,Oregon,TRA,transportation,44,6.7,.10442,1.55748
+2008-09,PA,Pennsylvania,TRA,transportation,14,7.77,5.3813,69.23995
+2008-09,RI,Rhode Island,TRA,transportation,0,0,0,0
+2008-09,SC,South Carolina,TRA,transportation,0,0,0,0
+2008-09,SD,South Dakota,TRA,transportation,0,0,0,0
+2008-09,TN,Tennessee,TRA,transportation,1,14.04,.016,.114
+2008-09,TX,Texas,TRA,transportation,42,8.61,.51521,5.98269
+2008-09,UT,Utah,TRA,transportation,8,8.38,.2095,2.49904
+2008-09,VT,Vermont,TRA,transportation,0,0,0,0
+2008-09,VA,Virginia,TRA,transportation,1,8.67,1.42885,16.473
+2008-09,WA,Washington,TRA,transportation,4,5.7,.00725,.12714
+2008-09,WV,West Virginia,TRA,transportation,1,5.58,.02381,.42699
+2008-09,WI,Wisconsin,TRA,transportation,0,0,0,0
+2008-09,WY,Wyoming,TRA,transportation,0,0,0,0
+2008-09,NEW,New England,TRA,transportation,8,19.76,6.2299,31.52351
+2008-09,MAT,Middle Atlantic,TRA,transportation,43,12.02,41.09143,341.84509
+2008-09,ENC,East North Central,TRA,transportation,8,8.63,4.38179,50.76496
+2008-09,WNC,West North Central,TRA,transportation,2,7.62,.275,3.608
+2008-09,SAT,South Atlantic,TRA,transportation,35,13.21,14.65143,110.92952
+2008-09,ESC,East South Central,TRA,transportation,1,14.04,.016,.114
+2008-09,WSC,West South Central,TRA,transportation,65,8.98,.58032,6.45952
+2008-09,MTN,Mountain,TRA,transportation,26,9.35,.6685,7.14796
+2008-09,PACC,Pacific Contiguous,TRA,transportation,555,8.53,6.52006,76.48037
+2008-09,PACN,Pacific Noncontiguous,TRA,transportation,0,0,0,0
+2008-09,US,U.S. Total,TRA,transportation,743,11.83,74.41443,628.87292
+2008-10,HI,Hawaii,TRA,transportation,0,0,0,0
+2008-10,ID,Idaho,TRA,transportation,0,0,0,0
+2008-10,IL,Illinois,TRA,transportation,4,8.52,3.34867,39.28676
+2008-11,CO,Colorado,TRA,transportation,1,7.83,.316,4.035
+2009-10,PACC,Pacific Contiguous,TRA,transportation,558,8.73,6.46781,74.12985
+2009-10,PACN,Pacific Noncontiguous,TRA,transportation,0,0,0,0
+2009-10,US,U.S. Total,TRA,transportation,708,10.39,62.32202,599.84432
+2009-11,KS,Kansas,TRA,transportation,0,0,0,0
+2009-11,KY,Kentucky,TRA,transportation,0,0,0,0
+2009-11,LA,Louisiana,TRA,transportation,23,10.13,.09212,.90905
+2009-11,ME,Maine,TRA,transportation,0,0,0,0
+2009-11,MD,Maryland,TRA,transportation,5,11.15,4.56809,40.96464
+2009-11,MA,Massachusetts,TRA,transportation,1,6.12,1.63683,26.7535
+2009-11,MI,Michigan,TRA,transportation,1,10.34,.039,.377
+2009-11,MN,Minnesota,TRA,transportation,1,7.74,.138,1.782
+2009-11,MS,Mississippi,TRA,transportation,0,0,0,0
+2016-11,ME,Maine,TRA,transportation,0,0,0,0
+2019-11,ENC,East North Central,TRA,transportation,11,7.65,3.38487,44.26797
+2019-11,WNC,West North Central,TRA,transportation,3,7.83,.30484,3.89079
+2019-11,SAT,South Atlantic,TRA,transportation,13,7.73,8.88437,115.00331
+2019-11,ESC,East South Central,TRA,transportation,0,0,0,0
+2019-12,UT,Utah,TRA,transportation,1,10.64,.46177,4.33892
+2019-12,VT,Vermont,TRA,transportation,0,0,0,0
+2019-12,VA,Virginia,TRA,transportation,1,7.9,1.84396,23.34599
+2019-12,WA,Washington,TRA,transportation,5,9.64,.83564,8.66469
+2010-07,AL,Alabama,TRA,transportation,0,0,0,0
+2010-07,US,U.S. Total,TRA,transportation,237,10.97,72.55439,661.23129
+2010-11,OR,Oregon,TRA,transportation,58,7.1,.14025,1.97591
+2010-11,PA,Pennsylvania,TRA,transportation,14,8.51,5.76535,67.72838
+2010-11,RI,Rhode Island,TRA,transportation,1,14.58,.30741,2.10772
+2010-11,SC,South Carolina,TRA,transportation,0,0,0,0
+2010-11,SD,South Dakota,TRA,transportation,0,0,0,0
+2010-11,TN,Tennessee,TRA,transportation,1,11.03,.015,.136
+2010-11,TX,Texas,TRA,transportation,3,9.81,.66782,6.8093
+2010-11,UT,Utah,TRA,transportation,11,8.65,.24543,2.83696
+2009-12,NH,New Hampshire,TRA,transportation,0,0,0,0
+2010-12,MN,Minnesota,TRA,transportation,1,7.76,.144,1.855
+2010-11,VT,Vermont,TRA,transportation,0,0,0,0
+2010-11,VA,Virginia,TRA,transportation,1,7.37,1.01235,13.734
+2010-11,WA,Washington,TRA,transportation,6,7.76,.04093,.52742
+2010-12,LA,Louisiana,TRA,transportation,22,8.3,.06698,.80724
+2010-12,ME,Maine,TRA,transportation,0,0,0,0
+2010-12,MD,Maryland,TRA,transportation,5,10.07,4.64653,46.15266
+2010-12,MA,Massachusetts,TRA,transportation,2,5.62,1.89136,33.68201
+2010-12,MI,Michigan,TRA,transportation,1,10.28,.04851,.472
+2020-04,NY,New York,TRA,transportation,8,12.28,19.59918,159.61357
+2020-04,NC,North Carolina,TRA,transportation,1,8.23,.09188,1.11623
+2020-04,ND,North Dakota,TRA,transportation,0,0,0,0
+2020-05,IL,Illinois,TRA,transportation,3,5.89,1.9458,33.05674
+2020-05,IN,Indiana,TRA,transportation,1,10.94,.1409,1.28804
+2020-05,IA,Iowa,TRA,transportation,0,0,0,0
+2020-05,KS,Kansas,TRA,transportation,0,0,0,0
+2020-05,KY,Kentucky,TRA,transportation,0,0,0,0
+2020-05,LA,Louisiana,TRA,transportation,1,8.36,.05121,.61257
+2020-05,ME,Maine,TRA,transportation,0,0,0,0
+2020-05,MD,Maryland,TRA,transportation,5,8.18,3.03897,37.134
+2020-05,MA,Massachusetts,TRA,transportation,2,4.73,1.17281,24.80314
+2020-05,MI,Michigan,TRA,transportation,2,11.42,.03172,.2777
+2020-05,MN,Minnesota,TRA,transportation,1,10.73,.09887,.92128
+2020-05,MS,Mississippi,TRA,transportation,0,0,0,0
+2020-06,AR,Arkansas,TRA,transportation,2,10.71,.0013,.01209
+2020-06,CA,California,TRA,transportation,13,10.15,5.06286,49.89744
+2020-06,CO,Colorado,TRA,transportation,1,9.33,.71665,7.67935
+2020-06,CT,Connecticut,TRA,transportation,3,10.52,.86193,8.19463
+2010-05,CT,Connecticut,TRA,transportation,2,11.63,1.63745,14.07404
+2010-05,DE,Delaware,TRA,transportation,0,0,0,0
+2010-05,DC,District of Columbia,TRA,transportation,1,10.64,2.7965,26.2732
+2010-05,FL,Florida,TRA,transportation,25,9.06,.61705,6.81204
+2010-05,GA,Georgia,TRA,transportation,1,7.64,.98888,12.94225
+2010-05,HI,Hawaii,TRA,transportation,0,0,0,0
+2010-05,ID,Idaho,TRA,transportation,0,0,0,0
+2010-05,IL,Illinois,TRA,transportation,4,6.76,2.71448,40.16708
+2010-05,IN,Indiana,TRA,transportation,1,10.11,.12207,1.20794
+2010-06,AR,Arkansas,TRA,transportation,2,12.21,.00403,.03297
+2010-06,CA,California,TRA,transportation,14,8.23,5.61735,68.23368
+2010-06,CO,Colorado,TRA,transportation,1,10.94,.396,3.621
+2010-06,CT,Connecticut,TRA,transportation,2,10.9,1.75884,16.13773
+2010-06,DE,Delaware,TRA,transportation,0,0,0,0
+2015-06,WV,West Virginia,TRA,transportation,0,0,0,0
+2015-06,WI,Wisconsin,TRA,transportation,1,13.33,.002,.015
+2015-06,WY,Wyoming,TRA,transportation,0,0,0,0
+2015-06,NEW,New England,TRA,transportation,7,9.15,4.02036,43.94556
+2015-06,ENC,East North Central,TRA,transportation,8,7.08,3.14444,44.40553
+2016-02,MI,Michigan,TRA,transportation,1,11.21,.04769,.4255
+2016-02,MN,Minnesota,TRA,transportation,1,9.97,.22124,2.21921
+2016-02,MS,Mississippi,TRA,transportation,0,0,0,0
+2016-02,MO,Missouri,TRA,transportation,1,6.32,.13258,2.09891
+2016-03,NJ,New Jersey,TRA,transportation,7,8.72,2.15858,24.75074
+2016-03,NM,New Mexico,TRA,transportation,0,0,0,0
+2016-03,NY,New York,TRA,transportation,9,11.59,26.52594,228.9243
+2016-03,NC,North Carolina,TRA,transportation,1,7.74,.04204,.54286
+2015-06,MAT,Middle Atlantic,TRA,transportation,19,12.08,37.70765,312.04682
+2015-07,FL,Florida,TRA,transportation,2,8.65,.73998,8.55155
+2015-07,GA,Georgia,TRA,transportation,1,9.94,1.46404,14.73556
+2015-07,HI,Hawaii,TRA,transportation,0,0,0,0
+2016-03,ND,North Dakota,TRA,transportation,0,0,0,0
+2016-11,DC,District of Columbia,TRA,transportation,3,9.43,2.36182,25.05345
+2016-11,FL,Florida,TRA,transportation,2,8.5,.61869,7.28214
+2018-08,RI,Rhode Island,TRA,transportation,1,16.93,.38529,2.27541
+2020-09,DE,Delaware,TRA,transportation,0,0,0,0
+2020-09,DC,District of Columbia,TRA,transportation,3,10.01,2.24678,22.44709
+2020-09,FL,Florida,TRA,transportation,2,7.66,.48275,6.3
+2015-05,MI,Michigan,TRA,transportation,1,11.35,.03551,.31274
+2009-08,DC,District of Columbia,TRA,transportation,1,12.99,3.84784,29.62248
+2015-05,MN,Minnesota,TRA,transportation,1,9.05,.16576,1.83219
+2016-01,ID,Idaho,TRA,transportation,0,0,0,0
+2016-01,IL,Illinois,TRA,transportation,3,6.71,2.9011,43.25185
+2016-01,IN,Indiana,TRA,transportation,1,9.52,.19889,2.08952
+2016-01,IA,Iowa,TRA,transportation,0,0,0,0
+2016-02,CO,Colorado,TRA,transportation,1,9.49,.51174,5.39
+2016-03,AK,Alaska,TRA,transportation,0,0,0,0
+2016-03,AZ,Arizona,TRA,transportation,2,8.91,.05096,.57157
+2016-03,AR,Arkansas,TRA,transportation,2,9.18,.00291,.03168
+2016-03,CA,California,TRA,transportation,16,9.54,6.29116,65.96627
+2016-03,CO,Colorado,TRA,transportation,1,9.04,.50119,5.542
+2016-11,KY,Kentucky,TRA,transportation,0,0,0,0
+2015-05,MS,Mississippi,TRA,transportation,0,0,0,0
+2015-05,MO,Missouri,TRA,transportation,1,7.54,.10996,1.45862
+2015-05,MT,Montana,TRA,transportation,0,0,0,0
+2015-06,ME,Maine,TRA,transportation,0,0,0,0
+2015-06,MD,Maryland,TRA,transportation,5,8.74,3.54216,40.52588
+2015-06,MA,Massachusetts,TRA,transportation,3,7.36,1.97131,26.80155
+2015-06,MI,Michigan,TRA,transportation,1,11.08,.03764,.33968
+2016-11,LA,Louisiana,TRA,transportation,1,9.6,.10337,1.07665
+2015-05,US,U.S. Total,TRA,transportation,79,9.87,60.07481,608.77392
+2015-06,VA,Virginia,TRA,transportation,1,8.21,1.33769,16.2959
+2015-06,WA,Washington,TRA,transportation,7,7.75,.03197,.41272
+2015-07,CT,Connecticut,TRA,transportation,3,9.59,1.71319,17.86973
+2015-07,DE,Delaware,TRA,transportation,0,0,0,0
+2015-07,DC,District of Columbia,TRA,transportation,1,8.95,2.85877,31.92598
+2015-08,AL,Alabama,TRA,transportation,0,0,0,0
+2015-08,AK,Alaska,TRA,transportation,0,0,0,0
+2019-05,SC,South Carolina,TRA,transportation,0,0,0,0
+2020-08,NEW,New England,TRA,transportation,6,7.62,2.87565,37.74965
+2020-08,MAT,Middle Atlantic,TRA,transportation,19,11.95,32.73229,273.90243
+2020-08,ENC,East North Central,TRA,transportation,11,6.36,2.57375,40.48193
+2019-03,SAT,South Atlantic,TRA,transportation,13,8.07,8.90786,110.41638
+2019-03,ESC,East South Central,TRA,transportation,0,0,0,0
+2019-03,WSC,West South Central,TRA,transportation,6,6.74,1.03899,15.42146
+2019-03,MTN,Mountain,TRA,transportation,5,9.31,1.34875,14.48276
+2020-08,NY,New York,TRA,transportation,8,12.63,27.68659,219.25908
+2020-08,NC,North Carolina,TRA,transportation,1,7.4,.11773,1.59028
+2020-08,ND,North Dakota,TRA,transportation,0,0,0,0
+2020-08,OH,Ohio,TRA,transportation,3,7.17,.16461,2.29579
+2020-08,OK,Oklahoma,TRA,transportation,0,0,0,0
+2020-08,OR,Oregon,TRA,transportation,2,9.5,.19758,2.08077
+2020-08,PA,Pennsylvania,TRA,transportation,5,8.72,2.78265,31.90831
+2020-08,RI,Rhode Island,TRA,transportation,1,26.3,.27105,1.03071
+2020-08,SC,South Carolina,TRA,transportation,0,0,0,0
+2020-08,SD,South Dakota,TRA,transportation,0,0,0,0
+2019-05,TN,Tennessee,TRA,transportation,0,0,0,0
+2019-05,TX,Texas,TRA,transportation,3,6.46,.95634,14.8007
+2020-02,ESC,East South Central,TRA,transportation,0,0,0,0
+2020-02,WSC,West South Central,TRA,transportation,6,6.76,1.0355,15.32419
+2020-02,MTN,Mountain,TRA,transportation,5,9.17,1.38246,15.07669
+2020-02,PACC,Pacific Contiguous,TRA,transportation,20,9.03,6.35479,70.37984
+2020-02,PACN,Pacific Noncontiguous,TRA,transportation,0,0,0,0
+2020-02,US,U.S. Total,TRA,transportation,83,9.45,58.52216,619.0225
+2020-07,ENC,East North Central,TRA,transportation,11,6.59,2.60445,39.52317
+2020-07,WNC,West North Central,TRA,transportation,3,10.12,.3027,2.99135
+2020-07,SAT,South Atlantic,TRA,transportation,13,8.34,8.43611,101.13399
+2020-07,ESC,East South Central,TRA,transportation,0,0,0,0
+2020-07,WSC,West South Central,TRA,transportation,6,6.64,1.06074,15.98128
+2020-07,MTN,Mountain,TRA,transportation,5,9.31,1.17531,12.62742
+2020-07,PACC,Pacific Contiguous,TRA,transportation,19,10.53,5.96211,56.64484
+2020-08,NJ,New Jersey,TRA,transportation,6,9.95,2.26305,22.73504
+2020-08,NM,New Mexico,TRA,transportation,0,0,0,0
+2019-05,SD,South Dakota,TRA,transportation,0,0,0,0
+2019-06,NV,Nevada,TRA,transportation,1,8.79,.06295,.71594
+2019-05,US,U.S. Total,TRA,transportation,81,9.46,57.55085,608.41917
+2020-02,TX,Texas,TRA,transportation,3,6.6,.95195,14.4139
+2020-02,UT,Utah,TRA,transportation,1,10.59,.45587,4.3033
+2020-02,VT,Vermont,TRA,transportation,0,0,0,0
+2020-02,VA,Virginia,TRA,transportation,1,8.28,1.39798,16.88855
+2020-08,UT,Utah,TRA,transportation,1,10.61,.42841,4.03833
+2020-08,VT,Vermont,TRA,transportation,0,0,0,0
+2020-05,ESC,East South Central,TRA,transportation,0,0,0,0
+2020-05,WSC,West South Central,TRA,transportation,6,6.85,.93855,13.70812
+2020-05,MTN,Mountain,TRA,transportation,5,9.03,1.15955,12.84169
+2020-05,PACC,Pacific Contiguous,TRA,transportation,20,9.43,4.7823,50.73942
+2020-05,PACN,Pacific Noncontiguous,TRA,transportation,0,0,0,0
+2020-05,US,U.S. Total,TRA,transportation,83,9.3,42.21874,453.96491
+2020-06,ID,Idaho,TRA,transportation,0,0,0,0
+2007-07,AL,Alabama,TRA,transportation,,0,0,0
+2007-07,AK,Alaska,TRA,transportation,,0,0,0
+2007-07,AZ,Arizona,TRA,transportation,,0,0,0
