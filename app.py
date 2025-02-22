@@ -93,6 +93,64 @@ def create_dashboard():
         mime="text/csv"
     )
 
+    # Model for Prediction (Linear Regression Example)
+    st.subheader('Future Predictions')
+    if st.button('Generate Predictions'):
+        # Preparing data for prediction
+        df_for_prediction = filtered_df[['period', 'customers']].copy()
+
+        # Convert 'period' to datetime format for model
+        df_for_prediction['period'] = pd.to_datetime(df_for_prediction['period'])
+        df_for_prediction['period'] = df_for_prediction['period'].apply(lambda x: x.month + 12*x.year)
+
+        # Create features (X) and target (y)
+        X = df_for_prediction[['period']]  # Feature: month/year
+        y = df_for_prediction['customers']  # Target: number of customers
+
+        # Train a Linear Regression Model
+        model = LinearRegression()
+        model.fit(X, y)
+
+        # Predict for the next 12 months
+        future_periods = np.arange(X['period'].max() + 1, X['period'].max() + 13).reshape(-1, 1)
+        future_predictions = model.predict(future_periods)
+
+        # Create future periods (dates)
+        future_dates = [datetime(2025, 1, 1) + timedelta(days=30 * (x - X['period'].max())) for x in future_periods.flatten()]
+
+        # Display predictions
+        future_df = pd.DataFrame({
+            'period': future_dates,
+            'predicted_customers': future_predictions
+        })
+
+        # Plot predictions alongside historical data
+        predicted_fig = px.line(filtered_df, 
+                                x='period', 
+                                y='customers',
+                                color='stateid',
+                                line_dash='sectorid',
+                                labels={'period': 'Year', 
+                                       'customers': 'Number of Customers',
+                                       'stateid': 'State',
+                                       'sectorid': 'Sector'})
+        
+        predicted_fig.add_scatter(x=future_df['period'], 
+                                  y=future_df['predicted_customers'], 
+                                  mode='lines', 
+                                  name='Predicted', 
+                                  line=dict(color='red', dash='dot'))
+
+        predicted_fig.update_layout(
+            title='Customer Trends and Predictions',
+            xaxis_title="Year",
+            yaxis_title="Number of Customers",
+            hovermode='x unified'
+        )
+
+        st.plotly_chart(predicted_fig, use_container_width=True)
+
+
 
 if __name__ == "__main__":
     st.set_page_config(
