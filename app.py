@@ -3,7 +3,11 @@ import plotly.express as px
 import pandas as pd
 import numpy as np
 from sklearn.linear_model import LinearRegression
+import plotly.graph_objects as go
 from datetime import datetime, timedelta
+from statsmodels.tsa.holtwinters import ExponentialSmoothing
+from statsmodels.tsa.arima.model import ARIMA
+from sklearn.linear_model import LinearRegression
 
 
 
@@ -11,12 +15,94 @@ def load_data():
     df=pd.read_csv('energy_data_cleaned.csv')
     return df  # Using your existing dataframe
 
+def make_future_dates(last_date, periods):
+    """Generate future dates for predictions"""
+    date_list = []
+    current_date = last_date
+    for _ in range(periods):
+        current_date = current_date + pd.DateOffset(months=1)
+        date_list.append(current_date)
+    return pd.DatetimeIndex(date_list)
+
+def predict_metric(data, metric, method, periods=12):
+    """Generate predictions using selected method"""
+    y = data[metric].values
+    
+    if method == 'Holt-Winters':
+        try:
+            model = ExponentialSmoothing(y, seasonal_periods=12, trend='add', seasonal='add')
+            fitted_model = model.fit()
+            forecast = fitted_model.forecast(periods)
+        except:
+            # Fallback to simpler method if Holt-Winters fails
+            forecast = np.repeat(y[-1], periods)
+    
+    elif method == 'ARIMA':
+        try:
+            model = ARIMA(y, order=(1,1,1))
+            fitted_model = model.fit()
+            forecast = fitted_model.forecast(periods)
+        except:
+            forecast = np.repeat(y[-1], periods)
+    
+    elif method == 'Linear':
+        X = np.arange(len(y)).reshape(-1, 1)
+        model = LinearRegression()
+        model.fit(X, y)
+        X_future = np.arange(len(y), len(y) + periods).reshape(-1, 1)
+        forecast = model.predict(X_future)
+    
+    else:  # Simple Moving Average
+        window = min(12, len(y))
+        last_mean = y[-window:].mean()
+        forecast = np.repeat(last_mean, periods)
+    
+    return forecast
+
+def add_predictions_section():
+    st.sidebar.header('Predictions')
+    prediction_enabled = st.sidebar.checkbox('Enable Predictions')
+    
+    if prediction_enabled:
+        pred_method = st.sidebar.selectbox(
+            'Prediction Method',
+            ['Holt-Winters', 'ARIMA', 'Linear', 'Moving Average']
+        )
+        
+        pred_periods = st.sidebar.slider(
+            'Forecast Periods (Months)',
+            min_value=1,
+            max_value=24,
+            value=12
+        )
+        
+        return pred_method, pred_periods
+    return None, None
+
 def create_dashboard():
     st.title('Energy Customer Trends Dashboard')
     
     # Load data
     df = load_data()
     
+    df['period'] = pd.to_datetime(df['period'])
+    
+    # Sidebar filters
+    st.sidebar.header('Data Filters')
+    
+    # Date range selector
+    min_date = df['period'].min()
+    max_date = df['period'].max()
+    date_range = st.sidebar.date_input(
+        'Select Date Range',
+        value=(min_date, max_date),
+        min_value=min_date,
+        max_value=max_date
+    )
+    
+    # Get prediction parameters
+    pred_method, pred_periods = add_predictions_section()
+
     # Sidebar for filters
     st.sidebar.header('Filter Data')
     
@@ -34,16 +120,32 @@ def create_dashboard():
         default=['RES']
     )
     
-    selected_metric = st.sidebar.selectbox(
-        "Select Metric to Display",
-        options=["customers", "sales"],  # Assuming "sales" exists in the dataset
-        index=0
+    metric_options = {
+        'customers': 'Number of Customers',
+        'price': 'Price (cents/kWh)',
+        'revenue': 'Revenue (thousand dollars)',
+        'sales': 'Sales (MWh)'
+    }
+    
+    # Main content
+    selected_metric = st.selectbox(
+        'Select Metric to Analyze',
+        options=list(metric_options.keys()),
+        format_func=lambda x: metric_options[x]
     )
+
+    #selected_metric = st.sidebar.selectbox(
+    #    "Select Metric to Display",
+    #    options=["customers", "sales","revenue"],  # Assuming "sales" exists in the dataset
+    #    index=0
+    #)
 
     # Filter data based on selection
     filtered_df = df[
         (df['stateid'].isin(selected_states)) & 
-        (df['sectorid'].isin(selected_sectors))
+        (df['sectorid'].isin(selected_sectors)) &
+        (df['period'].dt.date >= date_range[0]) &
+        (df['period'].dt.date <= date_range[1])
     ].sort_values('period')
     
     # Create the plot
@@ -58,6 +160,70 @@ def create_dashboard():
                          'stateid': 'State',
                          'sectorid': 'Sector'})
     
+    if pred_method:
+        future_dates = make_future_dates(filtered_df['period'].max(), pred_periods)
+
+        st.subheader(f'{metric_options[selected_metric]} Analysis and Predictions')
+    
+        fig1 = go.Figure()
+    
+    # Add historical data
+        for state in selected_states:
+                for sector in selected_sectors:
+                    temp_df = filtered_df[
+                        (filtered_df['stateid'] == state) & 
+                        (filtered_df['sectorid'] == sector)
+                    ]
+                    
+                    # Generate predictions
+                    forecast = predict_metric(
+                        temp_df,
+                        selected_metric,
+                        pred_method,
+                        pred_periods
+                    )
+                    
+                    # Add prediction trace
+                    fig1.add_trace(
+                        go.Scatter(
+                            x=future_dates,
+                            y=forecast,
+                            name=f"{state}-{sector} (Predicted)",
+                            line=dict(dash='dash')
+                        )
+                    )
+                    
+                    # Add confidence interval (simple implementation)
+                    std_dev = temp_df[selected_metric].std()
+                    fig1.add_trace(
+                        go.Scatter(
+                            x=future_dates,
+                            y=forecast + 2*std_dev,
+                            fill=None,
+                            line=dict(color='rgba(0,0,0,0)'),
+                            showlegend=False
+                        )
+                    )
+                    fig1.add_trace(
+                        go.Scatter(
+                            x=future_dates,
+                            y=forecast - 2*std_dev,
+                            fill='tonexty',
+                            fillcolor='rgba(0,100,255,0.2)',
+                            line=dict(color='rgba(0,0,0,0)'),
+                            name=f"{state}-{sector} (95% CI)",
+                        )
+                    )
+    
+                fig1.update_layout(
+                    title=f"{metric_options[selected_metric]} - Historical Data and Predictions",
+                    xaxis_title="Date",
+                    yaxis_title=metric_options[selected_metric],
+                    hovermode='x unified',
+                    height=600
+                )
+    
+                st.plotly_chart(fig1, use_container_width=True)
     # Update layout
     fig.update_layout(
         title=f'{selected_metric.capitalize()} Trends by State and Sector',  # **NEW CHANGE: Dynamic title**
@@ -93,7 +259,7 @@ def create_dashboard():
     if st.checkbox('Show Raw Data'):
         st.write(filtered_df)
 
-    @st.cache
+    @st.cache_data
     def convert_df_to_csv(df):
         return df.to_csv(index=False)
 
@@ -105,73 +271,6 @@ def create_dashboard():
         file_name="filtered_data.csv",
         mime="text/csv"
     )
-
-    # Model for Prediction (Linear Regression Example)
-    st.subheader('Future Predictions')
-    if st.button('Generate Predictions'):
-        # Preparing data for prediction
-        df_for_prediction = filtered_df[['period', 'customers']].copy()
-
-        # Convert 'period' to datetime format for model
-        df_for_prediction['period'] = pd.to_datetime(df_for_prediction['period'])
-        df_for_prediction['period'] = df_for_prediction['period'].apply(lambda x: x.month + 12*x.year)
-
-        # Create features (X) and target (y)
-        X = df_for_prediction[['period']]  # Feature: month/year
-        y = df_for_prediction['customers']  # Target: number of customers
-
-        # Train a Linear Regression Model
-        model = LinearRegression()
-        model.fit(X, y)
-
-        # Predict for the next 12 months
-        future_periods = np.arange(X['period'].max() + 1, X['period'].max() + 13).reshape(-1, 1)
-        future_predictions = model.predict(future_periods)
-
-        # Ensure period is in datetime format
-        X['period'] = pd.to_datetime(X['period'])
-
-        # Get the last period as a datetime
-        last_date = X['period'].max()
-
-        # Generate future dates based on the difference in periods
-        future_dates = [last_date + timedelta(days=int((x - last_date.year) * 30)) for x in future_periods.flatten()]
-        
-        #future_dates = [datetime(2025, 1, 1) + timedelta(days=int(x - X['period'].max()) * 30) for x in future_periods.flatten()]
-        #future_dates = [datetime(2025, 1, 1) + timedelta(days=30 * (x - X['period'].max())) for x in future_periods.flatten()]
-
-        # Display predictions
-        future_df = pd.DataFrame({
-            'period': future_dates,
-            'predicted_customers': future_predictions
-        })
-
-        # Plot predictions alongside historical data
-        predicted_fig = px.line(filtered_df, 
-                                x='period', 
-                                y='customers',
-                                color='stateid',
-                                line_dash='sectorid',
-                                labels={'period': 'Year', 
-                                       'customers': 'Number of Customers',
-                                       'stateid': 'State',
-                                       'sectorid': 'Sector'})
-        
-        predicted_fig.add_scatter(x=future_df['period'], 
-                                  y=future_df['predicted_customers'], 
-                                  mode='lines', 
-                                  name='Predicted', 
-                                  line=dict(color='red', dash='dot'))
-
-        predicted_fig.update_layout(
-            title='Customer Trends and Predictions',
-            xaxis_title="Year",
-            yaxis_title="Number of Customers",
-            hovermode='x unified'
-        )
-
-        st.plotly_chart(predicted_fig, use_container_width=True)
-
 
 
 if __name__ == "__main__":
