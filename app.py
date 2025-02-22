@@ -1,6 +1,8 @@
 import streamlit as st
 import plotly.express as px
 import pandas as pd
+from sklearn.linear_model import LinearRegression
+
 
 def load_data():
     df=pd.read_csv('energy_data_cleaned.csv')
