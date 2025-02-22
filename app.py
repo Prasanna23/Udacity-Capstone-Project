@@ -80,6 +80,20 @@ def create_dashboard():
     if st.checkbox('Show Raw Data'):
         st.write(filtered_df)
 
+    @st.cache
+    def convert_df_to_csv(df):
+        return df.to_csv(index=False)
+
+    # Download button
+    csv_data = convert_df_to_csv(filtered_df)
+    st.download_button(
+        label="Download Data",
+        data=csv_data,
+        file_name="filtered_data.csv",
+        mime="text/csv"
+    )
+
+
 if __name__ == "__main__":
     st.set_page_config(
         page_title="Energy Customer Trends",
