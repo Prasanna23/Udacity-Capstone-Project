@@ -34,6 +34,12 @@ def create_dashboard():
         default=['RES']
     )
     
+    selected_metric = st.sidebar.selectbox(
+        "Select Metric to Display",
+        options=["customers", "sales"],  # Assuming "sales" exists in the dataset
+        index=0
+    )
+
     # Filter data based on selection
     filtered_df = df[
         (df['stateid'].isin(selected_states)) & 
@@ -43,17 +49,19 @@ def create_dashboard():
     # Create the plot
     fig = px.line(filtered_df, 
                   x='period', 
-                  y='customers',
+                  y=selected_metric,
                   color='stateid',
                   line_dash='sectorid',
                   labels={'period': 'Year', 
-                         'customers': 'Number of Customers',
+                          selected_metric: f'Number of {selected_metric.capitalize()}',
+                         #'customers': 'Number of Customers',
                          'stateid': 'State',
                          'sectorid': 'Sector'})
     
     # Update layout
     fig.update_layout(
-        title='Customer Trends by State and Sector',
+        title=f'{selected_metric.capitalize()} Trends by State and Sector',  # **NEW CHANGE: Dynamic title**
+        #title='Customer Trends by State and Sector',
         xaxis_title="Year",
         yaxis_title="Number of Customers",
         hovermode='x unified'
@@ -70,14 +78,14 @@ def create_dashboard():
     
     with col1:
         st.metric(
-            "Total Customers", 
+            f"Total {selected_metric.capitalize()}",  # **NEW CHANGE: Dynamic metric**
             f"{filtered_df['customers'].iloc[-1]:,.0f}",
             f"{filtered_df['customers'].iloc[-1] - filtered_df['customers'].iloc[-2]:,.0f}"
         )
     
     with col2:
         st.metric(
-            "Average Customers", 
+            f"Average {selected_metric.capitalize()}",  # **NEW CHANGE: Dynamic metric**
             f"{filtered_df['customers'].mean():,.0f}"
         )
     
@@ -120,8 +128,17 @@ def create_dashboard():
         future_periods = np.arange(X['period'].max() + 1, X['period'].max() + 13).reshape(-1, 1)
         future_predictions = model.predict(future_periods)
 
-        # Create future periods (dates)
-        future_dates = [datetime(2025, 1, 1) + timedelta(days=30 * (x - X['period'].max())) for x in future_periods.flatten()]
+        # Ensure period is in datetime format
+        X['period'] = pd.to_datetime(X['period'])
+
+        # Get the last period as a datetime
+        last_date = X['period'].max()
+
+        # Generate future dates based on the difference in periods
+        future_dates = [last_date + timedelta(days=int((x - last_date.year) * 30)) for x in future_periods.flatten()]
+        
+        #future_dates = [datetime(2025, 1, 1) + timedelta(days=int(x - X['period'].max()) * 30) for x in future_periods.flatten()]
+        #future_dates = [datetime(2025, 1, 1) + timedelta(days=30 * (x - X['period'].max())) for x in future_periods.flatten()]
 
         # Display predictions
         future_df = pd.DataFrame({
