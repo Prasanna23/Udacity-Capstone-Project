@@ -43,6 +43,9 @@ python streamlit run app.py
 Open your browser and navigate to http://127.0.0.1:5000/ to interact with the application.
 
 Alternatively, the webapp is deployed and can be accessed using https://energy-metrics-explorer.streamlit.app/ website. 
+Web app has the ability to visualize different metrics with date filters, State and Sector filters.
+It also has the functionality to show predictions for future dates. 
+
 ### Project Structure
 The project is organized as follows:
 
