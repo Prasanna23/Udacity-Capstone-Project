@@ -60,10 +60,13 @@ Udacity-Capstone-Project/
 ├── Data_fetcher.py
 ├── EIA_data_Resi.py
 ├── Energy_exploration.py
-├── Energy_exploration_prediction.ipynb
+├── Energy_Analysis_Exploration_Prediction.ipynb
 ├── Temporal_Analysis.py
 ├── app.py
 ├── requirements.txt
 └── README.md
+
+Energy_Analysis_Exploration_Prediction.ipynb contains my analysis of EIA data along with the steps followed in data processing, exploration, feature engineering, creation and tuning of prediction models with the final results from the analysis.
+
 ### Acknowledgments
 This project is part of the Udacity Data Science Nanodegree program. Special thanks to the U.S. Energy Information Administration for providing the data and to the Udacity team for their guidance.
